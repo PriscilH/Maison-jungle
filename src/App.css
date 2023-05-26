@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
+/* BANNER */
+
+.lmj-banner {
+    color: black;
+    text-align: right;
+    padding-right: 50px;
+    display: flex;
+	justify-content: flex-end;
+	flex-direction: row;
+	align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.lmj-reco {
+    border-bottom: solid 3px black;
+    justify-content: flex-end;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    align-items: center;
+    display: flex;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.lmj-title {
+	padding-left: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.lmj-logo {
+	height: 45px;
+	width: 45px;
 }
 
-.App-link {
-  color: #61dafb;
+/* CART */
+
+.lmj-cart {
+    padding: 32px;
+    color: white;
+    background-color: #31b572;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* SHOPPINGLIST */
+
+.lmj-plant-list {
+	list-style-type: none;
+	padding: 32px;
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 800px;
+	padding-left: 380px;
+}
+
+/* PLANTITEM */
+
+.lmj-plant-item-cover {
+	height: 220px;
+	width: 220px;
+	border-radius: 20px;
+}
+
+.lmj-plant-item {
+	margin: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-transform: capitalize;
+}
+
+.lmj-sales {
+	position: absolute;
+	right: 0px;
+	top: 10px;
+	font-weight: 500;
+	color: white;
+	padding: 5px 10px;
+	background-color: #31b572;
+}
+
+.lmj-footer {
+	color: black;
+	padding: 32px;
+	border-top: solid 3px black;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: center;
+	font-weight: 500;
+}
+
+.lmj-footer-elem {
+	margin-bottom: 10px;
 }
