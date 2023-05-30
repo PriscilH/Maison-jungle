@@ -80,7 +80,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	max-width: 800px;
-	padding-left: 380px;
+	padding-left: 250px;
 }
 
 /* PLANTITEM */
@@ -100,16 +100,8 @@
 	text-transform: capitalize;
 }
 
-/* .lmj-sales {
-	position: absolute;
-	right: 0px;
-	top: 10px;
-	font-weight: 500;
-	color: white;
-	padding: 5px 10px;
-	background-color: #31b572;
-} */
 
+/* FOOTER */
 .lmj-footer {
 	color: black;
 	padding: 32px;
