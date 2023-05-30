@@ -73,6 +73,16 @@
 	color: black;
 }
 
+/* CATEGORIES */
+.lmj-categories {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.lmj-categories-select {
+	margin-right: 15px;
+}
+
 /* SHOPPINGLIST */
 
 .lmj-shopping-list {
